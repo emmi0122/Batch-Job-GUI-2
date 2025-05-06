@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort-and-filter</title>
+    <link rel="stylesheet" href="filter.css">
+</head>
+
+<body>
+    <header>
+        <div class="filter-and-close">
+            <div class="filter">
+                <h2>Filtrera</h2>
+            </div>
+            <div class="close">
+                Stäng
+                <img src="Assets/close.png" alt="Close symbol">
+            </div>
+        </div>
+
+        <div class="filter-and-delete">
+            Filtrerad på
+            <div class="delete-all">
+                <img src="Assets/bin.png" alt="Bin symbol">
+                Rensa alla
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <div class="sorted">
+            <button class="button" id="sorted-button">
+                Latinamerikansk (93)
+                <span>X</span>
+            </button>
+        </div>
+
+        <div class="type-of-meal">
+            <div class="meal-type">
+                <h3>Måltidstyp</h3>
+
+                <div class="meal-type-buttons">
+                    <button class="button" id="starter">Förrätt</button>
+                    <button class="button" id="main-course">Varmrätt</button>
+                    <button class="button" id="dessert">Dessert</button>
+                    <button class="button" id="buffet">Buffé</button>
+                </div>
+            </div>
+
+            <div class="special-diet">
+                <h3>Specialkost</h3>
+
+                <div class="special-diet-buttons">
+                    <button class="button" id="gluten-free">Glutenfri</button>
+                    <button class="button" id="lactose-free">Laktosfri</button>
+                    <button class="button" id="vegan">Vegan</button>
+                    <button class="button" id="vegetarian">Vegetarian</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="ingredients">
+            <h3>Ingredienser</h3>
+
+            <div class="include-exclude">
+                <div class="ingredient-group">
+                    <div class="label">Inkludera</div>
+                    <textarea placeholder="Skriv in ingredienser du vill inkludera..."></textarea>
+                </div>
+
+                <div class="ingredient-group">
+                    <div class="label">Exkludera</div>
+                    <textarea placeholder="Skriv in ingredienser du vill exkludera..."></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="price-filter">
+            <h3>Pris</h3>
+
+            <div class="price-inputs">
+                <div class="price-box">
+                    Från
+
+                    <div class="price-input">
+                        <span class="price-value">100 Kr</span>
+                    </div>
+                </div>
+
+                <div class="price-box">
+                    Till
+                    <div class="price-input">
+                        <span class="price-value">2000 Kr</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-slider">
+                <input type="range" min="100" max="2000" value="1000" class="slider">
+            </div>
+        </div>
+
+        <div class="cooking-time">
+            <h3>Tillagningstid</h3>
+
+            <div class="cooking-time-buttons">
+                <button class="button" id="under-15-min">Under 15 minuter</button>
+                <button class="button" id="under-30-min">Under 30 minuter</button>
+                <button class="button" id="under-45-min">Under 45 minuter</button>
+                <button class="button" id="under-60-min">Under 60 minuter</button>
+                <button class="button" id="over-60-min">Över 60 minuter</button>
+                <button class="button" id="over-12-hours">Över 12 timmar</button>
+            </div>
+        </div>
+
+        <div class="theme">
+            <h3>Tema</h3>
+
+            <div class="theme-buttons">
+                <button class="button" id="asian">Asiatikt</button>
+                <button class="button" id="african">Afrikansk</button>
+                <button class="button" id="american">Amerikansk</button>
+                <button class="button" id="english">Engelsk</button>
+                <button class="button" id="french">Fransk</button>
+                <button class="button" id="greece">Grekisk</button>
+                <button class="button" id="indian">Indisk</button>
+                <button class="button" id="caribbean">Karibisk</button>
+                <button class="button" id="latin-america">Latinamerikansk</button>
+                <button class="button" id="middle-east">Mellanöstern</button>
+                <button class="button" id="nordic">Nordisk</button>
+                <button class="button" id="spanish">Spansk</button>
+            </div>
+        </div>
+
+        <div class="holiday">
+            <h3>Tillfälle/högtid</h3>
+
+            <div class="holiday-buttons">
+                <button class="button" id="funeral">Begravning</button>
+                <button class="button" id="wedding">Bröllop</button>
+                <button class="button" id="baptism">Dop</button>
+                <button class="button" id="eid-al-fitr">Eid-al-Fitr</button>
+                <button class="button" id="birtday">Födelsedag</button>
+                <button class="button" id="christmas">Jul</button>
+                <button class="button" id="crayfish-party">Kräftskiva</button>
+                <button class="button" id="midsummer">Midsommar</button>
+                <button class="button" id="new-years">Nyår</button>
+                <button class="button" id="easter">Påsk</button>
+                <button class="button" id="graduation">Studenten</button>
+            </div>
+        </div>
+
+        <div class="show-recipies-button">
+            <button class="button" id="show-recipies">Visa 93 recept</button>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

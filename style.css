@@ -6,6 +6,8 @@ body{
     
 }
 
+/* Header stuff */
+
 #searchBar{
     display: flex;
     justify-content: space-between;
@@ -17,6 +19,7 @@ body{
     border-radius: 2rem;
     margin-bottom: 1rem;
 }
+
 #search{
     border: 0rem;
 }
@@ -30,7 +33,6 @@ body{
     
 }
 
-
 .header-buttons{
     width: 16rem;
     color: white;
@@ -43,6 +45,32 @@ body{
     padding-top: 0.3rem;
 }
 
-#filter-icon{
-    width: 10px;
+/* Header stuff */
+
+
+/* Inbetween header and main */
+#tags{
+    display:flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 0.6rem;
+
+   
 }
+.tag{
+    font-size: small;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    width:auto;
+}
+.crosses{
+    width: 8px;
+}
+
+
+/* Inbetween header and main */

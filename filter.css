@@ -197,6 +197,7 @@ hr {
 .slider {
     width: 100%;
     margin: 0;
+    accent-color: black;
 }
 
 .cooking-time {

@@ -9,265 +9,275 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"> </script>
+    <script defer src="script.js"> </script>
 </head>
 
 <body>
-    <header>
-        <div id="searchBar">
-            <input type="text" placeholder="Sök på recept eller ingredens" id="search">
-            <input type="image" src="resources\search-icon.png" name="search" id="searchButton">
+    <div id="container">
+        <header>
+            <div id="searchBar">
+                <input type="text" placeholder="Sök på recept eller ingredens" id="search">
+                <input type="image" src="resources\search-icon.png" name="search" id="searchButton">
+            </div>
+
+            <div id="filter-and-sort">
+
+                <button class="header-buttons"  id="filter-button"> Filtrera <img src="resources\filter-icon.png" alt="filter icon"
+                        class="header-icons"> </button>
+
+
+                <button class="header-buttons"> Sort <img src="resources\sort-icon.png" alt="sort icon"
+                        class="header-icons"></button>
+
+
+            </div>
+
+        </header>
+        <div id="tags">
+            <div class="tag">
+                Skaldjur
+                <img src="resources\close.png" alt="cross" class="crosses">
+            </div>
+            <div class="tag">
+                Citron
+                <img src="resources\close.png" alt="cross" class="crosses">
+            </div>
         </div>
+        <h5>2945 recept</h5> <!--kanske kommer behövas ändras seanre-->
+        <main>
+            <div class="cards">
+                <img src="resources\food.png" alt="food" class="food">
+                <h2 class="dish-name">Sallad med guacamole</h2>
+                <div class="location-and-label">
+                    <img src="resources\place-icon.png" alt="place" class="place-icon">
+                    <pre>Smak från <b>asien</b> </pre>
+                    <div class="food-label">
+                        Varmrätt
+                    </div>
+                </div>
 
-        <div id="filter-and-sort">
+                <div class="time-and-alternatives">
+                    <div>
+                        <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">20 min</h6>
+                    </div>
+                    <div>
+                        <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">60 kr/portion</h6>
+                    </div>
+                    <div>
+                        <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
+                        <h6 class="vegan-icon">Vegansk</h6>
+                    </div>
 
-            <button class="header-buttons"> Filtrera <img src="resources\filter-icon.png" alt="filter icon"
-                    class="header-icons"> </button>
+                </div>
+                <div class="bottom-of-card">
+                    <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
+                    <div class="alternatives">
+                        <img src="resources\plus.png" alt="plus" class="plus">
+                        <p>2 Alternativ</p>
+                    </div>
+                    <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
 
 
-            <button class="header-buttons"> Sort <img src="resources\sort-icon.png" alt="sort icon"
-                    class="header-icons"></button>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="resources\food.png" alt="food" class="food">
+                <h2 class="dish-name">Sallad med guacamole</h2>
+                <div class="location-and-label">
+                    <img src="resources\place-icon.png" alt="place" class="place-icon">
+                    <pre>Smak från <b>asien</b> </pre>
+                    <div class="food-label">
+                        Varmrätt
+                    </div>
+                </div>
+
+                <div class="time-and-alternatives">
+                    <div>
+                        <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">20 min</h6>
+                    </div>
+                    <div>
+                        <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">60 kr/portion</h6>
+                    </div>
+                    <div>
+                        <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
+                        <h6 class="vegan-icon">Vegansk</h6>
+                    </div>
+
+                </div>
+                <div class="bottom-of-card">
+                    <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
+                    <div class="alternatives">
+                        <img src="resources\plus.png" alt="plus" class="plus">
+                        <p>2 Alternativ</p>
+                    </div>
+                    <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
 
 
-        </div>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="resources\food.png" alt="food" class="food">
+                <h2 class="dish-name">Sallad med guacamole</h2>
+                <div class="location-and-label">
+                    <img src="resources\place-icon.png" alt="place" class="place-icon">
+                    <pre>Smak från <b>asien</b> </pre>
+                    <div class="food-label">
+                        Varmrätt
+                    </div>
+                </div>
 
-    </header>
-    <div id="tags">
-        <div class="tag">
-            Skaldjur
-            <img src="resources\close.png" alt="cross" class="crosses">
-        </div>
-        <div class="tag">
-            Citron
-            <img src="resources\close.png" alt="cross" class="crosses">
-        </div>
+                <div class="time-and-alternatives">
+                    <div>
+                        <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">20 min</h6>
+                    </div>
+                    <div>
+                        <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">60 kr/portion</h6>
+                    </div>
+                    <div>
+                        <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
+                        <h6 class="vegan-icon">Vegansk</h6>
+                    </div>
+
+                </div>
+                <div class="bottom-of-card">
+                    <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
+                    <div class="alternatives">
+                        <img src="resources\plus.png" alt="plus" class="plus">
+                        <p>2 Alternativ</p>
+                    </div>
+                    <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
+
+
+                </div>
+            </div>
+            <div class="cards">
+                <img src="resources\food.png" alt="food" class="food">
+                <h2 class="dish-name">Sallad med guacamole</h2>
+                <div class="location-and-label">
+                    <img src="resources\place-icon.png" alt="place" class="place-icon">
+                    <pre>Smak från <b>asien</b> </pre>
+                    <div class="food-label">
+                        Varmrätt
+                    </div>
+                </div>
+
+                <div class="time-and-alternatives">
+                    <div>
+                        <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">20 min</h6>
+                    </div>
+                    <div>
+                        <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">60 kr/portion</h6>
+                    </div>
+                    <div>
+                        <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
+                        <h6 class="vegan-icon">Vegansk</h6>
+                    </div>
+
+                </div>
+                <div class="bottom-of-card">
+                    <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
+                    <div class="alternatives">
+                        <img src="resources\plus.png" alt="plus" class="plus">
+                        <p>2 Alternativ</p>
+                    </div>
+                    <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
+
+
+                </div>
+            </div>
+            <div class="cards">
+                <img src="resources\food.png" alt="food" class="food">
+                <h2 class="dish-name">Sallad med guacamole</h2>
+                <div class="location-and-label">
+                    <img src="resources\place-icon.png" alt="place" class="place-icon">
+                    <pre>Smak från <b>asien</b> </pre>
+                    <div class="food-label">
+                        Varmrätt
+                    </div>
+                </div>
+
+                <div class="time-and-alternatives">
+                    <div>
+                        <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">20 min</h6>
+                    </div>
+                    <div>
+                        <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">60 kr/portion</h6>
+                    </div>
+                    <div>
+                        <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
+                        <h6 class="vegan-icon">Vegansk</h6>
+                    </div>
+
+                </div>
+                <div class="bottom-of-card">
+                    <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
+                    <div class="alternatives">
+                        <img src="resources\plus.png" alt="plus" class="plus">
+                        <p>2 Alternativ</p>
+                    </div>
+                    <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
+
+
+                </div>
+            </div>
+            <div class="cards">
+                <img src="resources\food.png" alt="food" class="food">
+                <h2 class="dish-name">Sallad med guacamole</h2>
+                <div class="location-and-label">
+                    <img src="resources\place-icon.png" alt="place" class="place-icon">
+                    <pre>Smak från <b>asien</b> </pre>
+                    <div class="food-label">
+                        Varmrätt
+                    </div>
+                </div>
+
+                <div class="time-and-alternatives">
+                    <div>
+                        <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">20 min</h6>
+                    </div>
+                    <div>
+                        <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
+                        <h6 class="alt-icons">60 kr/portion</h6>
+                    </div>
+                    <div>
+                        <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
+                        <h6 class="vegan-icon">Vegansk</h6>
+                    </div>
+
+                </div>
+                <div class="bottom-of-card">
+                    <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
+                    <div class="alternatives">
+                        <img src="resources\plus.png" alt="plus" class="plus">
+                        <p>2 Alternativ</p>
+                    </div>
+                    <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
+
+
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div id="back-to-start"> 
+                <img src="resources\arrow-narrow-up.png" alt="arrow">
+                <h2>UPP</h2>
+            </div>
+        </footer>
+        
     </div>
-    <h5>2945 recept</h5> <!--kanske kommer behövas ändras seanre-->
-    <main>
-        <div class="cards">
-            <img src="resources\food.png" alt="food" class="food">
-            <h2 class="dish-name">Ostron med asiatisk vinägrett</h2>
-            <div class="location-and-label">
-                <img src="resources\place-icon.png" alt="place" class="place-icon">
-                <pre>Smak från <b>asien</b> </pre>
-                <div class="food-label">
-                    Varmrätt
-                </div>
-            </div>
-
-            <div class="time-and-alternatives">
-                <div>
-                    <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">20 min</h6>
-                </div>
-                <div>
-                    <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">60 kr/portion</h6>
-                </div>
-                <div>
-                    <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
-                    <h6 class="vegan-icon">Vegansk</h6>
-                </div>
-
-            </div>
-            <div class="bottom-of-card">
-                <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
-                <div class="alternatives">
-                    <img src="resources\plus.png" alt="plus" class="plus">
-                    <p>2 Alternativ</p>
-                </div>
-                <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
-
-
-            </div>
-        </div>
-        <div class="cards">
-            <img src="resources\food.png" alt="food" class="food">
-            <h2 class="dish-name">Ostron med asiatisk vinägrett</h2>
-            <div class="location-and-label">
-                <img src="resources\place-icon.png" alt="place" class="place-icon">
-                <pre>Smak från <b>asien</b> </pre>
-                <div class="food-label">
-                    Varmrätt
-                </div>
-            </div>
-
-            <div class="time-and-alternatives">
-                <div>
-                    <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">20 min</h6>
-                </div>
-                <div>
-                    <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">60 kr/portion</h6>
-                </div>
-                <div>
-                    <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
-                    <h6 class="vegan-icon">Vegansk</h6>
-                </div>
-
-            </div>
-            <div class="bottom-of-card">
-                <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
-                <div class="alternatives">
-                    <img src="resources\plus.png" alt="plus" class="plus">
-                    <p>2 Alternativ</p>
-                </div>
-                <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
-
-
-            </div>
-        </div>
-        <div class="cards">
-            <img src="resources\food.png" alt="food" class="food">
-            <h2 class="dish-name">Ostron med asiatisk vinägrett</h2>
-            <div class="location-and-label">
-                <img src="resources\place-icon.png" alt="place" class="place-icon">
-                <pre>Smak från <b>asien</b> </pre>
-                <div class="food-label">
-                    Varmrätt
-                </div>
-            </div>
-
-            <div class="time-and-alternatives">
-                <div>
-                    <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">20 min</h6>
-                </div>
-                <div>
-                    <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">60 kr/portion</h6>
-                </div>
-                <div>
-                    <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
-                    <h6 class="vegan-icon">Vegansk</h6>
-                </div>
-
-            </div>
-            <div class="bottom-of-card">
-                <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
-                <div class="alternatives">
-                    <img src="resources\plus.png" alt="plus" class="plus">
-                    <p>2 Alternativ</p>
-                </div>
-                <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
-
-
-            </div>
-        </div>
-        <div class="cards">
-            <img src="resources\food.png" alt="food" class="food">
-            <h2 class="dish-name">Ostron med asiatisk vinägrett</h2>
-            <div class="location-and-label">
-                <img src="resources\place-icon.png" alt="place" class="place-icon">
-                <pre>Smak från <b>asien</b> </pre>
-                <div class="food-label">
-                    Varmrätt
-                </div>
-            </div>
-
-            <div class="time-and-alternatives">
-                <div>
-                    <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">20 min</h6>
-                </div>
-                <div>
-                    <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">60 kr/portion</h6>
-                </div>
-                <div>
-                    <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
-                    <h6 class="vegan-icon">Vegansk</h6>
-                </div>
-
-            </div>
-            <div class="bottom-of-card">
-                <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
-                <div class="alternatives">
-                    <img src="resources\plus.png" alt="plus" class="plus">
-                    <p>2 Alternativ</p>
-                </div>
-                <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
-
-
-            </div>
-        </div>
-        <div class="cards">
-            <img src="resources\food.png" alt="food" class="food">
-            <h2 class="dish-name">Ostron med asiatisk vinägrett</h2>
-            <div class="location-and-label">
-                <img src="resources\place-icon.png" alt="place" class="place-icon">
-                <pre>Smak från <b>asien</b> </pre>
-                <div class="food-label">
-                    Varmrätt
-                </div>
-            </div>
-
-            <div class="time-and-alternatives">
-                <div>
-                    <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">20 min</h6>
-                </div>
-                <div>
-                    <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">60 kr/portion</h6>
-                </div>
-                <div>
-                    <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
-                    <h6 class="vegan-icon">Vegansk</h6>
-                </div>
-
-            </div>
-            <div class="bottom-of-card">
-                <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
-                <div class="alternatives">
-                    <img src="resources\plus.png" alt="plus" class="plus">
-                    <p>2 Alternativ</p>
-                </div>
-                <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
-
-
-            </div>
-        </div>
-        <div class="cards">
-            <img src="resources\food.png" alt="food" class="food">
-            <h2 class="dish-name">Ostron med asiatisk vinägrett</h2>
-            <div class="location-and-label">
-                <img src="resources\place-icon.png" alt="place" class="place-icon">
-                <pre>Smak från <b>asien</b> </pre>
-                <div class="food-label">
-                    Varmrätt
-                </div>
-            </div>
-
-            <div class="time-and-alternatives">
-                <div>
-                    <img src="resources\clock-icon.png" alt="clock" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">20 min</h6>
-                </div>
-                <div>
-                    <img src="resources\price-icon.png" alt="price" class="time-and-alternatives-icons">
-                    <h6 class="alt-icons">60 kr/portion</h6>
-                </div>
-                <div>
-                    <img src="resources\vegan-icon.png" alt="vegan" class="time-and-alternatives-icons">
-                    <h6 class="vegan-icon">Vegansk</h6>
-                </div>
-
-            </div>
-            <div class="bottom-of-card">
-                <img src="resources\chevron-right.png" alt="left-arrow" class="arrows">
-                <div class="alternatives">
-                    <img src="resources\plus.png" alt="plus" class="plus">
-                    <p>2 Alternativ</p>
-                </div>
-                <img src="resources\chevron-left.png" alt="right-arrow" class="arrows">
-
-
-            </div>
-        </div>
-
-    </main>
 
 </body>
 

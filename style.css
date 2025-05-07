@@ -74,3 +74,125 @@ body{
 
 
 /* Inbetween header and main */
+
+
+/* main */
+
+main{
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 3;
+    column-gap: 1rem;
+    row-gap: 1rem;
+
+
+}
+
+.cards{
+    padding:0.9rem;
+    background-color: white;
+    border-radius: 18px;
+    width:272px; 
+    height: 378px;
+}
+
+.food{
+    width: 17rem ;
+}
+
+.location-and-label{
+    display: flex;
+    align-items: baseline;
+    
+    
+
+}
+
+.food-label{
+    margin-left: auto;
+    font-size:small;
+    background-color: #E5EAD7;
+    border-radius: 0.4rem;
+    padding:0.4rem; 
+
+
+}
+
+.place-icon{
+    width: 14.29px; 
+    height: 18.14px;
+    margin-right:0.6rem ;
+    
+}
+
+pre{
+    margin: 0%;
+}
+
+.time-and-alternatives{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight:lighter;
+
+    
+    div {
+        display: flex;
+        gap: 2px;
+    }
+}
+
+.time-and-alternatives-icons{
+    width: 16.29px; 
+    height: 18.14px;
+    margin-top: 1.4rem;
+    margin-right: 0.2rem;
+
+}
+
+.alt-icons{
+    margin-right: 1rem;
+}
+
+.vegan-icon{
+    margin-right: 0px;
+}
+
+.bottom-of-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrows{
+    
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 18px;
+    height: 18px;
+
+}
+/* 
+.plus-icon{
+    margin-top: ;
+} */
+
+.alternatives{
+ display: flex;
+align-items: center;
+ font-size: small;
+ gap: 0.5rem;
+ color: gray ;
+}
+
+.plus {
+    width: 15px;
+    height: 15px;
+}
+/* 
+p{
+    margin: 0px;
+} */
+
+
+/* main */
